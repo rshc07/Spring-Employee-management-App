@@ -87,3 +87,31 @@ This project uses Swagger (OpenAPI) for API documentation.
     ```
 
     This provides an interactive interface to test the API endpoints.
+
+## Endpoints
+
+#Home
+- GET /: View home page with the list of employees.
+- URL: http://localhost:8080/
+- Response: Renders index.html with a list of employees.
+
+#Employee Management
+- GET /showNewEmployeeForm: Show form to create a new employee.
+    - URL: http://localhost:8080/showNewEmployeeForm
+    - Response: Renders new_employee.html.
+- POST /saveEmployee: Save a new or updated employee.
+    - URL: http://localhost:8080/saveEmployee
+    - Request Body: Form data with employee details.
+    - Response: Redirects to the home page.
+- GET /showFormForUpdate/{id}: Show form to update an existing employee.
+    - URL: http://localhost:8080/showFormForUpdate/{id}
+    - Path Variable: id - Employee ID.
+    - Response: Renders update_employee.html with employee details.
+- GET /deleteEmployee/{id}: Delete an employee by ID.
+    - URL: http://localhost:8080/deleteEmployee/{id}
+    - Path Variable: id - Employee ID.
+    - Response: Redirects to the home page.
+- GET /viewEmployee/{id}: View details of a specific employee.
+    - URL: http://localhost:8080/viewEmployee/{id}
+    - Path Variable: id - Employee ID.
+    - Response: Renders view_employee.html with employee details.
