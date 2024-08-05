@@ -7,11 +7,24 @@ The Employee Management System is a Spring Boot application that allows users to
 ## Table of Contents
 
 - [Prerequisites](#prerequisites)
+- [Technologies Used](#technologies-used)
 - [Project Setup](#project-setup)
 - [Configuration](#configuration)
 - [Running the Application](#running-the-application)
 - [API Documentation](#api-documentation)
 - [Endpoints](#endpoints)
+
+## Technologies Used
+
+- **Java**: Programming language.
+- **Spring Boot**: Framework for building Java applications.
+- **Spring Data JPA**: For database access and ORM.
+- **Thymeleaf**: Template engine for rendering web pages.
+- **Swagger (OpenAPI)**: For API documentation.
+- **Maven**: Build automation tool.
+- **MySQL**: Database.
+- **HTML**: Markup language for creating web pages.
+- **CSS**: Style sheet language for designing web pages.
 
 ## Prerequisites
 
@@ -90,12 +103,12 @@ This project uses Swagger (OpenAPI) for API documentation.
 
 ## Endpoints
 
-#Home
+**Home**
 - GET /: View home page with the list of employees.
 - URL: http://localhost:8080/
 - Response: Renders index.html with a list of employees.
 
-#Employee Management
+**Employee Management**
 - GET /showNewEmployeeForm: Show form to create a new employee.
     - URL: http://localhost:8080/showNewEmployeeForm
     - Response: Renders new_employee.html.
