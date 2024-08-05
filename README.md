@@ -6,8 +6,8 @@ The Employee Management System is a Spring Boot application that allows users to
 
 ## Table of Contents
 
-- [Prerequisites](#prerequisites)
 - [Technologies Used](#technologies-used)
+- [Prerequisites](#prerequisites)
 - [Project Setup](#project-setup)
 - [Configuration](#configuration)
 - [Running the Application](#running-the-application)
@@ -100,7 +100,9 @@ This project uses Swagger (OpenAPI) for API documentation.
     ```
 
     This provides an interactive interface to test the API endpoints.
-
+   
+2. **Swagger UI_API Documentation:**
+   Captured some API response using http://localhost:8080/swagger-ui.html you can download the sample from this PDF file [https://github.com/rshc07/Spring_-Employee-management-App/blob/main/Swagger%20UI_API%20Documentation.pdf]
 ## Endpoints
 
 **Home**
