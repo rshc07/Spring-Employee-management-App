@@ -60,16 +60,17 @@ The Employee Management System is a Spring Boot application that allows users to
 
     ```properties
     # Database Configuration
-    spring.datasource.url=jdbc:mysql://localhost:3306/yourdatabase
-    spring.datasource.username=yourusername
-    spring.datasource.password=yourpassword
+    spring.datasource.url=jdbc:mysql://localhost:3306/employee_db
+    spring.datasource.username=root
+    spring.datasource.password=Msdhoni1997*
+    spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
     spring.jpa.hibernate.ddl-auto=update
 
     # Server Configuration
     server.port=8080
     ```
 
-    Ensure you have a MySQL database running with the name `yourdatabase` and update the username and password accordingly.
+    Ensure you have a MySQL database running with the name `employee_db` and update the username and password accordingly.
 
 ## Running the Application
 
